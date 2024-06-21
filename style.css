@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.havadurumu {
+    text-align: center;
+    background-image: url("./img/Baku.jpg");
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+h1 {
+    color: blue;
+    margin: 10px;
+}
+
+.havadurumu input, .havadurumu button {
+    outline: none;
+    padding: 10px;
+    margin: 10px;
+    border: none;
+    border-radius: 5px;
+}
+
+.havadurumu button {
+    cursor: pointer;
+}
+
+#weatherInfo {
+    margin-top: 20px;
+}
